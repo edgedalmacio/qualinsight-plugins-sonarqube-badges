@@ -18,7 +18,7 @@ Five different images types are generated depending on the plugin's execution:
 
 ### Installation 
 
-In order to use this plugin on your SonarQube server instance, you need first to install it. The plugin is available in SonarQube's update center under the name "SVN Badges".
+In order to use this plugin on your SonarQube server instance, you need first to install it. The plugin is available in SonarQube's update center under the name "SVG Badges".
 
 Then  you need to set SonarQube's ``sonar.core.serverBaseURL`` property to the URL of your SonarQube's server. This configuration step is mandatory. If this property is not set (i.e. default value is used) the plugin may behave incorrectly as SonarQube REST API may be unreachable. 
 
@@ -58,7 +58,7 @@ The webservice is self-documented. Once installed, go to the webservice document
 
 ## Known limitations
 
-* if authentication is required on your SonarQube instance in order to access a project's page, then the plugin is currently unable to retrieve data required to build SVN badges due to a SonarQube limitation (see issue #15.) 
+* if authentication is required on your SonarQube instance in order to access a project's page, then the plugin is currently unable to retrieve data required to build SVG badges due to a SonarQube limitation (see issue #15.) 
 
 ## Conclusion
 
